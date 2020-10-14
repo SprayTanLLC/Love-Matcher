@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: space-around;
+}
+.money {
+  text-align: center;
+  border: 3px solid brown;
+  height: 50%;
+  background-color: burlywood;
+  border-radius: 5px;
+}
+input {
+  margin: 1rem;
+}
