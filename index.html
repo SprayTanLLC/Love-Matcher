@@ -25,9 +25,9 @@
       </div>
     </div>
     <main class="d-flex">
-      <form>
+      <form id="loveForm">
         <div class="form-group">
-          <label for="exampleInputEmail1">Your Name:</label>
+          <label>Your Name:</label>
           <input
             class="form-control"
             id="exampleInputEmail1"
@@ -47,8 +47,11 @@
         <button id="bs-butt" type="button" class="btn btn-primary">
           Submit
         </button>
+        <button id="clearForm" type="button" class="btn btn-primary">
+          Reset
+        </button>
       </form>
-      <div class="resultcontainer">
+      <div class="resultContainer">
         <h2>Potential "LOVE" Compatability:</h2>
         <br />
         <h3 id="result">RESULT:</h3>
@@ -59,6 +62,6 @@
       <div class="heart"></div>
     </div>
 
-    <script src="atom.js"></script>
+    <script src="LoveMatcher.js"></script>
   </body>
 </html>

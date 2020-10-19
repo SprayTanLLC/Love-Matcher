@@ -2,7 +2,9 @@ body {
   color: purple;
   font-family: "Lobster", cursive;
 }
-
+.jumbotron {
+  background-color: rgb(238, 182, 233);
+}
 main {
   background: url("./resources/cupid.jpg");
   background-size: cover;
@@ -16,7 +18,7 @@ form {
   padding: 3rem;
   text-align: center;
 }
-.resultcontainer {
+.resultContainer {
   margin: 1rem;
   border: 2px solid slategray;
   padding: 3rem;
@@ -26,6 +28,25 @@ form {
 .form-group {
   font-size: 2rem;
 }
+#clearForm {
+  display: none;
+  background-color: tomato;
+}
+#result {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    font-size: 2rem;
+  }
+  50% {
+    font-size: 3rem;
+  }
+  100% {
+    font-size: 2rem;
+  }
+}
+/* heart */
 .heartContainer {
   width: 50%;
   height: auto;
